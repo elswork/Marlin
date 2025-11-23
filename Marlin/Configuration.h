@@ -777,7 +777,7 @@
   // Delta calibration menu
   // uncomment to add three points calibration menu option.
   // See http://minow.blogspot.com/index.html#4918805519571907051
-  //#define DELTA_CALIBRATION_MENU
+  #define DELTA_CALIBRATION_MENU
 
   // uncomment to add G33 Delta Auto-Calibration (Enable EEPROM_SETTINGS to store results)
   //#define DELTA_AUTO_CALIBRATION
@@ -804,7 +804,7 @@
   #define DELTA_DIAGONAL_ROD 214.0        // (mm) 215
 
   // Distance between bed and nozzle Z home position
-  #define DELTA_HEIGHT 239.60             // (mm) Get this value from G33 auto calibrate
+  #define DELTA_HEIGHT 239.4              // (mm) Manually calibrated
 
   #define DELTA_ENDSTOP_ADJ { 0.0, 0.0, 0.0 } // Get these values from G33 auto calibrate
 
